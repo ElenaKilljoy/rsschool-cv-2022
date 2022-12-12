@@ -97,11 +97,16 @@ h1 {
 }
 
 .cv_section {
-  margin: 0 10%;
+  margin: 0 10% 5%;
 }
 
 .info_section {
   margin: 0 5%;
+  line-height: 1.5;
+}
+
+.courses_list {
+  margin: 0 2.5%;
   line-height: 1.5;
 }
 
