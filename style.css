@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -18,7 +18,6 @@ body {
 }
 
 /* Header styles start */
-
 
 .header_wrapper {
   display: flex;
