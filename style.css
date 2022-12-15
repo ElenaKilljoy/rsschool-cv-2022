@@ -117,10 +117,24 @@ h1 {
   line-height: 1.5;
 }
 
-
 .code_example {
   margin: 5% 0;
   line-height: 1.2;  
+}
+
+.project_item {
+  margin: 5% 5% 0;
+}
+
+.project_name {
+  font-weight: normal;
+  margin: 1% 2% 0;
+}
+
+.project_image {
+  width: 30%;
+  height: auto;
+  border: 1px solid #696969;
 }
 
 /* Main styles end */
