@@ -115,9 +115,37 @@ h1 {
   line-height: 1.5;
 }
 
+
 .code_example {
   margin: 5% 0;
   line-height: 1.2;  
 }
 
 /* Main styles end */
+
+/* Footer styles start */
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  margin: 10% 0 5%;
+  align-items: center;
+}
+
+.rss_logo {
+  width: 20%;
+  height: auto;
+  margin: 0 25%;
+}
+
+.github_logo {
+  width: 16%;
+  height: auto;
+  margin: 0 10%;
+}
+
+.year {
+  margin: 0 40%;
+}
+
+/* Footer styles end */
