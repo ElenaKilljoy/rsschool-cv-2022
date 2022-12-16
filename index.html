@@ -6,7 +6,130 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
   <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body class="cv_body">
+  <header class="header">
+    <div class="wrapper">
+      <div class="header_wrapper">
+        <nav class="header_nav">
+          <ul class="menu_list">
+            <li><a href="#about" class="menu_link">About</a></li>
+            <li><a href="#edu" class="menu_link">Education</a></li>
+            <li><a href="#skills" class="menu_link">Skills</a></li>
+            <li><a href="#code" class="menu_link">Code</a></li>
+            <li><a href="#projects" class="menu_link">My Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main">
+    <section class="main_info">
+      <div class="wrapper">
+	      <div class="info_grid">
+          <div class="cv-photo">
+            <img class="photo" src="./assets/images/photo-cv.jpg" alt="photo-cv">
+          </div>
+          <div class="name_contacts">
+            <h1>Elena Nikolaeva</h1>
+            <h2>Junior Frontend Developer</h2>
+            <h2 class="contacts">Contacts:</h2>
+	          <ul class="contact_list">
+              <li class="contact">Tel: +7(905)287-59-16</li>
+              <li class="contact">E-mail: lenokcardio@gmail.com</li>
+              <li class="contact">Discord: Elena Nikolaeva#9330</li>
+            </ul>
+          </div>
+	      </div>
+      </div>
+    </section>
+    
+    <section class="about" id="about">
+      <div class="wrapper">
+        <div class="cv_section">
+          <h2 class="name_section">About me</h2>
+          <p class="info_section">
+            I'm a Russian language teacher. I've recently become interested in programming and spend most of my free time learning Frontend Development. I like HTML and CSS coding. And I believe that my new passion will become my career.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="edu">
+      <div class="wrapper">
+        <div class="cv_section">
+          <h2 class="name_section">Education</h2>
+          <ul class="courses_list">
+            <li class="list_item">Netology - Course: HTML & CSS basics (2022)</li>
+            <li class="list_item">Hexlet - Course: JavaScript basics (2022)</li>
+            <li class="list_item">RS School - Course: Frontend Developer Pre-School (2022 - in process)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <div class="cv_section">
+          <h2 class="name_section">Skills</h2>
+          <ul class="skills_list">
+            <li class="list_item">HTML & CSS</li>
+            <li class="list_item">JavaScript basics</li>
+            <li class="list_item">Git</li>
+            <li class="list_item">English A2+</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="code" id="code">
+      <div class="wrapper">
+        <div class="cv_section">
+          <h2 class="name_section">Code Example</h2>
+          <div class="code_example">
+            <pre>
+              <code class="function">
+                function perimeterSequence(a, n) {
+                  let perimeterOfOne = a * 4;
+                  let result = perimeterOfOne * n;
+                  return result;
+                }
+              </code>   
+            </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="wrapper">
+        <div class="cv_section">
+          <h2 class="name_section">My Projects</h2>
+          <div class="project_item">
+            <a href="./index.html"><img class="project_image" src="./assets/images/project_cv.jpg" alt="project_image"></a>
+            <h3 class="project_name">CV</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer_grid">
+      <div class="rss_icon">
+        <a href="https://rs.school/js/"><img class="rss_logo" src="./assets/icons/rs_school_js.svg" alt="rss_logo"></a>
+      </div>
+      <div class="gh_icon">
+        <a href="https://github.com/ElenaKilljoy"><img class="github_logo" src="./assets/icons/github.svg" alt="github_logo"></a>
+      </div>
+      <p class="year">
+        2022
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
