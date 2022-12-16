@@ -1,0 +1,165 @@
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+/* Header styles start */
+
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+  flex-direction: row;
+}
+
+.menu_list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.menu_link {
+  margin: 0 30px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu_link:hover {
+  background: #4682B4;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Header styles end */
+
+/* Main styles start */
+
+.info_grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 5% 0;
+}
+
+.photo {
+  width: 62%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 20%;
+}
+
+.name_contacts {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.contacts {
+  margin: 10% 0 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contact_list {
+  margin: 5% 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.contact {
+  margin: 2% 0;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.cv_section {
+  margin: 0 10% 5%;
+}
+
+.info_section {
+  margin: 0 5%;
+  line-height: 1.5;
+}
+
+.courses_list {
+  margin: 0 2.5%;
+  line-height: 1.5;
+}
+
+.skills_list {
+  margin: 0 2.5%;
+  line-height: 1.5;
+}
+
+.code_example {
+  margin: 5% 0;
+  line-height: 1.2;  
+}
+
+.project_item {
+  margin: 5% 5% 0;
+}
+
+.project_name {
+  margin: 1% 2% 0;
+  font-weight: normal;
+}
+
+.project_image {
+  width: 30%;
+  height: auto;
+  border: 1px solid #696969;
+}
+
+/* Main styles end */
+
+/* Footer styles start */
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  margin: 10% 0 5%;
+  align-items: center;
+}
+
+.rss_logo {
+  width: 20%;
+  height: auto;
+  margin: 0 25%;
+}
+
+.github_logo {
+  width: 16%;
+  height: auto;
+  margin: 0 10%;
+}
+
+.year {
+  margin: 0 40%;
+}
+
+/* Footer styles end */
